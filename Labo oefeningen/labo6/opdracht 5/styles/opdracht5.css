@@ -1,0 +1,8 @@
+.metBeforeContent a:before{
+    content: url("")
+}
+.metBackgroundImage a{
+    background-repeat: no-repeat;
+    background-image: url("");
+    padding-left: 16px;
+}
