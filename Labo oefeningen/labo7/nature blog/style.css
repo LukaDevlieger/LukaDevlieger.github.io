@@ -1,0 +1,23 @@
+#nature{
+    color: #EDF2F4;
+    background-image: url("header.jpg");
+    height: 100px;
+}
+nav{
+    color: green;
+    background-color: black;
+}
+section{
+    width: 1200px;
+}
+#article{
+    background-color: lightgray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#title{
+    font-size: 25px;
+    color: grey;
+    text-decoration: underline;
+}
