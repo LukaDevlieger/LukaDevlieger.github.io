@@ -1,0 +1,150 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+    width: 960px;
+    background: #e6e6e6 url(../images/pagebackground.png) repeat-y center top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 956px;
+    padding: 0;
+}
+
+
+#top {
+    height: 200px;
+    background-image: url(../images/bgsky3.jpg);
+    text-align: center;
+    color: darkblue;
+    position: relative;
+    margin-top: 0;
+    background-position: top center;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+#top img{
+    position: absolute;
+    bottom: 60px;
+    right: 90px;
+}
+#Titel1{
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 0;
+}
+
+/*#Titel2{
+    font-size: 240%;
+    font-weight: bold;
+}*/
+
+#news{
+    width: 250px;
+    background-color: #dddddd;
+    border: 1px;
+    border-color: #999999;
+    float: right;
+    box-sizing: border-box;
+    color: #666666;
+    margin: 5px;
+    margin-top: 0px;
+    margin-right: 0;
+}
+
+#news p {
+    size: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#news h3{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+#main{
+    width: 700px;
+    margin: 0px;
+}
+
+#introduction{
+    background-color: white;
+    color: black;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 130px;
+    display: block;
+}
+
+#logo{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+#introduction span{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+#gallery{
+    background-color: #999999;
+    margin-right: 10px;
+}
+
+.foto{
+    border: 1px dotted #999999;
+    padding:10px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+}
+
+.foto img {
+    width: 180px;
+    height: 180px;
+}
+
+#bottom{
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+}
+
+#bottom div{
+    margin-left:120px;
+    display: inline-block;
+}
+
+#bottom a{
+    color: white;
+}
+
+#block{
+    padding-left: 120px;
+}
+
+#block a:hover{
+    color: #FF0000;
+}
+
+#copyright {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
