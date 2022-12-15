@@ -1,0 +1,14 @@
+#light{
+    background-color: lightgrey;
+}
+
+#dark{
+    background-color: darkgray;
+}
+
+
+ div[class*='col']{
+     height: 150px;
+     box-sizing: border-box;
+     border: white 10px solid;
+ }
