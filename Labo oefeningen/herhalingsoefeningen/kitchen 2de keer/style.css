@@ -1,0 +1,151 @@
+/** Volgende CSS gaan we ze geven **/
+/*algemeen*/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+body{
+    font-family: 'helvatica', sans-serif;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: black;
+    border-bottom: solid black 2px;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+/*header*/
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: #ebe8e8 1px solid;
+}
+header div{
+    width: 600px;
+}
+header div img{
+    height: 50px;
+}
+@media screen and (min-width: 770px){
+    header div{
+        width: 750px;
+    }
+}
+@media screen and (min-width: 1000px){
+    header div{
+        width: 980px;
+    }
+}
+/*navigatie*/
+.navContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navigatie{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 600px;
+}
+@media screen and (min-width: 770px){
+    .navigatie{
+        width: 750px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .navigatie{
+        width: 980px;
+    }
+}
+/*navigatie knop*/
+.navigatie a{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-right: #ebe8e8 solid 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #5b4746;
+    font-size: 13px;
+}
+.navigatie a:last-child{
+    border-right: none;
+}
+.navigatie a:hover{
+    border-bottom: #fff100 2px solid;
+}
+/*main*/
+main{
+    border-top: #ebe8e8 1px solid;
+    width: 100%;
+}
+/*main header*/
+.mainHeader{
+    width: 100%;
+    height: 500px;
+    background-image: url("images/headerimage.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: #8D99AE 2px 2px;
+}
+@media screen and (min-width: 800px){
+    .mainHeader{
+        font-size: 5em;
+        text-align: center;
+    }
+}
+/*main recipes*/
+.recipesContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.recipesHeader{
+    width: 100%;
+}
+.recipesSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.recipesSection div{
+    padding: 10px;
+}
+@media screen and (min-width: 770px){
+    .recipesContainer{
+        width: 750px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .recipesContainer{
+        width: 980px;
+    }
+}
+/*main recipe item*/
+.article{
+    margin-right: 1.5em;
+    padding-top: 1em;
+}
+.article p{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #ff4d56;
+    text-space: 1px;
+}
+.article a{
+    text-decoration: none;
+    color: black;
+}
