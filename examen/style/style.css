@@ -1,0 +1,119 @@
+@media screen and (min-width: 992px){
+    body{
+        width: 100%;
+    }
+    .logos{
+       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 1.2em;
+    background-color: #00d4ef;
+    background-image: url("../Inhoud-versie2/background.png");
+    background-repeat: repeat-x;
+}
+header{
+    background-color: rgb(193,156,214);
+    width: 100%;
+    height: 50px;
+    line-height: 3;
+}
+header div{
+    display: inline-block;
+}
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000ece;
+    padding: 1em;
+}
+header a:hover{
+    text-underline: black;
+}
+.floatRight{
+    float: right;
+}
+.posterafbeelding{
+    background-image: url("../Inhoud-versie2/code.jpg");
+    height: 300px;
+    background-size: cover;
+}
+.inhoud{
+    padding: 1em;
+    background-color: whitesmoke;
+}
+.paginatitel{
+    font-size: 300%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.titel{
+    font-size: 1.8em;
+}
+.inhoudstafel ul{
+    list-style-type: upper-roman;
+    padding-right: 25px;
+
+}
+.inhoudstafel ul li{
+    padding-left: 10px;
+}
+.inhoudstafel ul ul{
+    list-style-type: square;
+    font-size: 0.9em;
+}
+.inhoudstafel{
+    border-right: black 1px solid;
+
+}
+.bold{
+    font-weight: bold;
+}
+.titeltekst{
+    font-size: 210%;
+}
+.paragraaf{
+    font-size: 1em;
+
+}
+.opmerking{
+    background-color: #97ffba;
+    background-image: url("../Inhoud-versie2/note.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding-bottom: 1em;
+    margin: 0.5em;
+}
+.opmerking h1{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+.logos div{
+    width: 100%;
+    padding: 20px;
+}
+.logos div img{
+    height: 1em;
+    width: 1em;
+ }
+footer{
+    background-color: #eee;
+    font-size: 0.75em;
+    padding-top: 25px;
+    padding-right: 5px;
+    font-style: italic ;
+    display: flex;
+    justify-content: end;
+}
+tr:hover{
+    color: white;
+    background-color: #672d87;
+}
