@@ -1,0 +1,11 @@
+#swatch{
+    border: 2px solid black;
+    border-radius: 25%;
+    height: 100px;
+    width: 100px;
+}
+
+.wrapper{
+    display: grid;
+    place-content: center;
+}
