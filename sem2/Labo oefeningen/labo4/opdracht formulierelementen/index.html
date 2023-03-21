@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" charset="utf-8"
+            src="scripts/code.js"></script>
+    <title>Title</title>
+</head>
+<body>
+
+<form action="post" action="www.vives.be/student/index">
+
+<label for="txtFirstName">First Name*: </label>
+<input type="text" id="txtFirstName" placeholder="Your first name" autofocus="autofocus" required>
+
+<br>
+
+<label for="txtLastName">Last Name]*: </label>
+<input type="text" id="txtLastName" placeholder="Your last name" required>
+
+<br>
+
+Which sport do you train?
+<label for="ckbRunning">Running</label>
+<input type="checkbox" id="ckbRunning">
+
+<label for="ckbSwimming">Swimming</label>
+<input type="checkbox" id="ckbSwimming">
+
+<label for="ckbRowing">Rowing</label>
+<input type="checkbox" id="ckbRowing">
+
+<br>
+
+What is your gender?
+<label for="rdbMale">Male</label>
+<input type="radio" id="rdbMale" name="radioGender" value="male">
+
+<label for="rdbFemale">Female</label>
+<input type="radio" id="rdbFemale" name="radioGender" value="female">
+
+<br>
+
+<label for="txtFavMovie">Favourite movie: </label>
+<input type="text" id="txtFavMovie">
+
+<br>
+
+<label for="txtFavQuote">Favourite quote: </label>
+<input type="text" id="txtFavQuote" placeholder="Write your favorite quote">
+
+<br>
+
+<label for="txtPasswd">Password*: </label>
+<input type="password" id="txtPasswd" required>
+
+<br>
+
+<label for="Foods">Favorite Food: </label>
+<input list="Foods" name="foods" />
+<datalist id="Foods">
+    <option value="mac and cheese">
+    <option value="water">
+    <option value="candy">
+    <option value="butter">
+    <option value="ketchup">
+</datalist>
+<input type="submit" />
+
+<br>
+
+<input type="file" id="fileBestand" placeholder="Bestand kiezen">
+<label for="fileBestand"></label>
+
+<br>
+
+<label for="txtEmail">Email adress: </label>
+<input type="text" id="txtEmail" placeholder="Enter your email adress" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+
+<br>
+
+<label for="txtFavSite">Favorite site: </label>
+<input type="text" id="txtFavSite" placeholder="Enter the Url of your favorite site">
+
+<br>
+
+<label for="number1">Favourite number between 1-10</label>
+<input type="number" id="number1" min="1" max="10">
+
+<br>
+
+<label for="rng2">Favorite number between 11-1000</label>
+<input type="range" id="rng2" min="11" max="1000">
+
+<br>
+
+<label for="dteBorn">When were you born?</label>
+<input type="date" id="dteBorn">
+
+<br>
+
+<label for="txtZip">Belgium zip-code red number*: </label>
+    <input id="txtZip" type="text" pattern="[1-9][0-9]{3}" placeholder="9999">
+
+    <br>
+
+    <label for="txtsome">Search for something</label>
+    <input type="text" id="txtsome">
+
+    <br>
+
+    <label for="clr1">What is your favorite color?</label>
+    <input type="color" id="clr1">
+<br>
+<input type="submit" value="send">
+
+</form>
+</body>
+</html>
