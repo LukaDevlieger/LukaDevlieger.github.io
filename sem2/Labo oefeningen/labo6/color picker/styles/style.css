@@ -1,7 +1,18 @@
 #swatch{
     border: 2px solid black;
-    border-radius: 25%;
     height: 100px;
     width: 100px;
 }
-
+#btnDelete{
+    float: right;
+}
+.border{
+    border-radius: 25%;
+}
+#swatchComponents{
+    display: flex;
+    flex-direction: row;
+}
+#swatchComponents div{
+    margin: 5px;
+}
