@@ -1,0 +1,16 @@
+.vak{
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/achterkant.png");
+    background-size: cover;
+}
+#speelVeld{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
