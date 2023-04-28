@@ -28,7 +28,7 @@ const zetSpeelveld = () =>{
 }
 
 const draaiKaart = () =>{
-    
+
 }
 
 Window.addEventListener("load", setup);
