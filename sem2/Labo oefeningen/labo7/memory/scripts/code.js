@@ -12,6 +12,7 @@ const setup = () => {
         kaart.addEventListener("click", draaiKaart);
     }
 
+
 }
 
 
@@ -140,6 +141,7 @@ const checkGelijk = () => {
 
         console.log("teruggedraaid");
     }
+
 
 }
 
