@@ -140,8 +140,14 @@ const checkGelijk = () => {
         }, 1500);
 
         console.log("teruggedraaid");
-    }
 
+
+
+    }
+    let hidden = document.getElementsByClassName("hide");
+    if (hidden.length == 12){
+        alert("proficiat");
+    }
 
 }
 

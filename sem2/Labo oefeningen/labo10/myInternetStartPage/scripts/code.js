@@ -69,7 +69,7 @@ const checkCommand = () => {
 
 
 
-    if (h !== {}){
+    if (h != {}){
         window.open(url + search);
         array.push(h);
         console.log(h);
